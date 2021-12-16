@@ -11,10 +11,6 @@ body {
   margin: auto;
 }
 
-a {
-  display: table;
-}
-
 [rel=home]:not(:focus) {
   text-decoration-style: dashed;
 }
