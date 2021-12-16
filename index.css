@@ -11,7 +11,7 @@ body {
   margin: auto;
 }
 
-footer a {
+a {
   display: table;
 }
 
@@ -25,4 +25,13 @@ footer a {
 
 :focus {
   outline-width: thick;
+}
+
+li {
+  margin-inline-start: 1em;
+  list-style: circle;
+}
+
+li:focus-within {
+  list-style: disc;
 }
