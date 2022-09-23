@@ -16,7 +16,7 @@ body {
 }
 
 :any-link {
-  transition: text-decoration 10ms, color 20ms, background 30ms;
+  transition: text-decoration 10ms, color 20ms, background-color 30ms;
 }
 
 :focus {
