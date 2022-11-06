@@ -4,11 +4,13 @@
 }
 
 :root {
+  transition: 66ms ease;
   background: #ddd;
   color: #100;
 }
 
 :link {
+  transition: 33ms ease;
   background: #eee;
   color: blueviolet;
 }
@@ -25,6 +27,6 @@
 }
 
 mark {
-  background: salmon;
-  color: #100;
+  background: #bae;
+  color: #101;
 }

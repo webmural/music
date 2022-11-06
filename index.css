@@ -11,16 +11,22 @@ body {
   margin: auto;
 }
 
-[rel=home]:not(:focus) {
+[rel=home] {
   text-decoration-style: dashed;
 }
 
-:any-link {
-  transition: text-decoration 10ms, color 20ms, background-color 30ms;
+[rel=help] {
+  text-decoration-style: wavy;
 }
 
 :focus {
   outline-width: thick;
+  outline-style: dotted;
+}
+
+:focus:active {
+  outline-width: medium;
+  outline-style: groove;
 }
 
 li {
